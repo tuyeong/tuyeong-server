@@ -1,0 +1,17 @@
+{
+  "name": "tuyeong",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/snapperbay4453/tuyeong.git",
+  "author": "Kyeonghwan Son <snapperbay4453@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.1"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow yarn",
+    "initialize": "yarn husky install"
+  }
+}
